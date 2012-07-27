@@ -1,0 +1,9 @@
+name: OakLogin
+main: com.ignoreourgirth.gary.oaklogin.OakLogin
+version: 1.0
+depend: [OakCoreLib]
+commands:
+   who:
+      description: Gets information about who the player is.
+      usage: /who PlayerName
+      permission: oakplayers.who
